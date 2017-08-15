@@ -1,0 +1,114 @@
+#element::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: block;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.top-wrapper {
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.top-inner {
+  height: 100%;
+  width: 100%;
+
+  padding-right: 17px;
+
+  overflow-y: scroll;
+}
+
+section.header-nav {
+  height: 100%;
+  width: 100%;
+
+  padding-right: 17px;
+
+  background-image: url(../image/my_house.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: 0 0;
+  position: relative;
+}
+
+.header-text {
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+
+  display:  -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+
+  font-size: 3em;
+
+  position: absolute;
+
+  top: 0px;
+  bottom: 0px;
+  left:   0px;
+  right: 0px;
+
+  width:  100%;
+  height: 100%;
+  text-align:     center;
+  color:            #fff;
+  background-color: #000;
+  line-height: 250%;
+  filter:       alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity:      0.6;
+
+  max-height: 100%;
+}
+
+section.fill-container {
+  margin-top: 100px;
+  text-align: center;
+
+  padding-right: 17px;
+
+  width: 100%;
+}
+
+.menu-ul {
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction:         row;
+  -webkit-justify-content: space-around;
+  justify-content:         space-around;
+
+  width: 100%;
+}
+
+.menu-item-title {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  border-bottom: 1px solid;
+
+  width: 50%;
+}
+
+.menu-item-body {
+  margin-bottom: 100px;
+  padding: 5px;
+}
+
