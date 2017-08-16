@@ -6,10 +6,6 @@
   display: none;
 }
 
-::-webkit-scrollbar {
-  display: block;
-}
-
 html {
   height: 100%;
   width: 100%;
@@ -18,20 +14,6 @@ html {
 body {
   height: 100%;
   width: 100%;
-}
-
-.top-wrapper {
-  height: 100%;
-  width: 100%;
-
-  overflow: hidden;
-}
-
-.top-inner {
-  height: 100%;
-  width: 100%;
-
-  padding-right: 17px;
 
   overflow-y: scroll;
 }
@@ -39,8 +21,6 @@ body {
 section.header-nav {
   height: 100%;
   width: 100%;
-
-  padding-right: 17px;
 
   background-image: url(../image/my_house.jpg);
   background-size: cover;
@@ -84,8 +64,6 @@ section.fill-container {
   margin-top: 100px;
   text-align: center;
 
-  padding-right: 17px;
-
   width: 100%;
 }
 
@@ -110,5 +88,10 @@ section.fill-container {
 .menu-item-body {
   margin-bottom: 100px;
   padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
